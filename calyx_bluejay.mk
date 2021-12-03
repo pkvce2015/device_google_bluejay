@@ -18,3 +18,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/bluejay/bluejay:13/TP1A.220624.021.A1/8893963:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/bluejay/bluejay-vendor.mk)
