@@ -13,9 +13,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=bluejay \
-    PRIVATE_BUILD_DESC="bluejay-user 13 TP1A.220624.021.A1 8893963 release-keys"
+    PRIVATE_BUILD_DESC="bluejay-user 13 TP1A.220905.004.A2 9014697 release-keys"
 
-BUILD_FINGERPRINT := google/bluejay/bluejay:13/TP1A.220624.021.A1/8893963:user/release-keys
+BUILD_FINGERPRINT := google/bluejay/bluejay:13/TP1A.220905.004.A2/9014697:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
