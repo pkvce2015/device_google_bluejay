@@ -15,7 +15,6 @@ vendor/bin/hw/android.hardware.input.processor-service
 vendor/bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl
 vendor/bin/hw/android.hardware.secure_element@1.2-uicc-service
 vendor/bin/hw/android.hardware.security.keymint-service.citadel
-vendor/bin/hw/android.hardware.vibrator-service.cs40l26-private-bluejay
 vendor/bin/hw/android.hardware.weaver@1.0-service.citadel
 vendor/bin/hw/citadel_updater
 vendor/bin/hw/citadeld
@@ -151,7 +150,6 @@ vendor/etc/init/android.hardware.input.processor-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@service-darwinn-aidl.rc
 vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
-vendor/etc/init/android.hardware.vibrator-service.cs40l26-private-bluejay.rc
 vendor/etc/init/android.hardware.weaver@1.0-service.citadel.rc
 vendor/etc/init/aocd.rc
 vendor/etc/init/bipchmgr.rc
@@ -213,7 +211,6 @@ vendor/etc/vintf/manifest/android.hardware.confirmationui@1.0-service.trusty.ven
 vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.vibrator-service.cs40l26-private-bluejay.xml
 vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml
 vendor/etc/vintf/manifest/dmd.xml
 vendor/etc/vintf/manifest/fingerprint-goodix.xml
@@ -945,6 +942,7 @@ vendor/firmware/fw_bcmdhd.map
 vendor/firmware/g7.app
 vendor/firmware/google/edgetpu-abrolhos.fw
 vendor/firmware/google_wifi_firmware_config_info.pb
+vendor/firmware/mfc_fw.bin
 vendor/firmware/sarconfig.info
 vendor/firmware/st54j_conf.bin
 vendor/firmware/st54j_conf_GB17L.bin
@@ -962,7 +960,6 @@ vendor/lib/audio_spk_35l41.so
 vendor/lib/audio_tunnel_aoc.so
 vendor/lib/audio_usb_aoc.so
 vendor/lib/audio_waves_aoc.so
-vendor/lib/com.google.hardware.pixel.display-V7-ndk.so
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/hw/audio.platform.aoc.so
 vendor/lib/hw/audio.primary.gs101.so
@@ -1051,13 +1048,11 @@ vendor/lib64/biometricsuez.so
 vendor/lib64/com.google.edgetpu_app_service-V2-ndk.so
 vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so
 vendor/lib64/com.google.hardware.biometrics.fingerprint.fingerprint-ext-V1-ndk.so
-vendor/lib64/com.google.hardware.pixel.display-V7-ndk.so
 vendor/lib64/com.google.input-V1-ndk.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/fp_utils.so
 vendor/lib64/google_wifi_firmware_config_info_cc_proto.so
 vendor/lib64/google_wifi_firmware_config_version_c_wrapper.so
-vendor/lib64/hw/android.hardware.vibrator-impl.cs40l26-private-bluejay.so
 vendor/lib64/hw/audio.platform.aoc.so
 vendor/lib64/hw/audio.primary.gs101.so
 vendor/lib64/hw/sound_trigger.primary.gs101.so
@@ -1130,7 +1125,6 @@ vendor/lib64/libsueznanoappclients.so
 vendor/lib64/libtouchflow.so
 vendor/lib64/libusf.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/libvibecapo_proto_bluejay.so
 vendor/lib64/libwvaidl.so
 vendor/lib64/sensors.usf.so
 vendor/lib64/soundfx/liboffloadeffect.so
