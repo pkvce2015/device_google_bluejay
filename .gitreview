@@ -1,5 +1,5 @@
 [gerrit]
-host=review.calyxos.org
+host=review.superioros.org
 port=29418
-project=CalyxOS/device_google_bluejay
+project=SuperiorOS/device_google_bluejay
 defaultbranch=android13

@@ -1,4 +1,4 @@
-DEVICE_PACKAGE_OVERLAYS += device/google/bluejay/overlay-calyx
+DEVICE_PACKAGE_OVERLAYS += device/google/bluejay/overlay-superior
 
 # EUICC
 PRODUCT_COPY_FILES += \

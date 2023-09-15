@@ -32,4 +32,4 @@ include device/google/gs101/wifi/BoardConfig-wifi.mk
 
 $(call soong_config_set,google3a_config,target_device,bluejay)
 
-include device/google/bluejay/bluejay/BoardConfig-calyx.mk
+include device/google/bluejay/bluejay/BoardConfig-superior.mk
